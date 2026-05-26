@@ -1,0 +1,28 @@
+{
+  "payload": [
+    {
+      "LicenceUserName": "Radek",
+      "SeatCount": 2,
+      "IPAddresses": ["10.0.0.0/24", "192.168.1.0/24"],
+      "ValidationTime": 600
+    },
+    {
+      "LicenceUserName": "Guest",
+      "SeatCount": 1,
+      "IPAddresses": ["192.168.1.0/24"],
+      "ValidationTime": 120
+    },
+    {
+      "LicenceUserName": "Admin",
+      "SeatCount": 0,
+      "IPAddresses": ["any"],
+      "ValidationTime": 0
+    },
+    {
+      "LicenceUserName": "Flash",
+      "SeatCount": 2,
+      "IPAddresses": ["any"],
+      "ValidationTime": 2
+    }
+  ]
+}
